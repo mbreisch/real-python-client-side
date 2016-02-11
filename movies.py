@@ -2,7 +2,7 @@ import json
 import requests
 import sqlite3
 
-TOKEN = "129d3d14-aa10-4202-adfe-40b703481517"
+TOKEN = "<GET YOUR OWN>"
 url = requests.get("http://api.myapifilms.com/imdb/inTheaters?token={}&format=json&language=en-us".format(TOKEN))
 
 binary = url.content
